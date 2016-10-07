@@ -12,6 +12,8 @@
 /.idea
 .project
 .classpath
+*.sublime-project
+*.sublime-workspace
 *.launch
 .settings/
 
