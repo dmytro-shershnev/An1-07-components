@@ -12,14 +12,29 @@
 	<div class="container">
 		<h1>AngularJS: Components</h1>
 		<!-- componets examples -->
+		<!-- <simple></simple> -->
+
+		<accordion>
+			<accordion-panel header="Panel-1">
+				This is panel 1 content
+			</accordion-panel>
+			<accordion-panel header="Panel-2">
+				This is panel 2 content
+			</accordion-panel>
+		</accordion>
+
 	</div>
 
 	<!-- libs and frameworks -->
 	<script src="/vendor/angular/angular.min.js"></script>
 
-	<!-- app -->
-
 	<!-- components -->
+	<script src="components/components.module.js"></script>
+	<script src="components/simple/simple.component.js"></script>
+	<script src="components/accordion/accordion.component.js"></script>
+
+	<!-- app -->
+	<script src="app.js"></script>
 </body>
 </html>
 

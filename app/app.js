@@ -2,7 +2,7 @@
 	"use strict";
 
 	angular
-		.module("app", []);
+		.module("app", ["components"]);
 	
 	angular.element(document).ready(() => {
 		angular.bootstrap(document, ["app"]);
